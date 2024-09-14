@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fredoka One", Helvetica, sans-serif, Arial;
+    box-sizing: border-box;
+}
+
+
+
+
+body > header{
+    display: flex;
+    height: 12vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(221, 160, 221, 0.276);
+   justify-content: space-between;
+}
+
+
+.container {
+    max-width: 700px;
+    width: 100%;
+    background: rgb(249, 238, 245);
+    padding: 25px 30px;
+    border-radius: 5px;
+}
+
+.container .title {
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+
+.container .title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 5px;
+    width: 30px;
+    background-color: rgba(212, 178, 245, 0.845);
+}
+
+.container form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+form .input-box{
+   width: 100%; 
+   margin: 10px 0 10px 0;
+}
+
+.input-box .details{
+   display: block;
+   font-weight: 500;
+   margin-bottom: 5px;
+}
+
+
+ .input-box input{
+    height: 40px;
+    width: 100%;
+}
+
+
+.container form .user-details{
+    max-height: 300px;
+}
